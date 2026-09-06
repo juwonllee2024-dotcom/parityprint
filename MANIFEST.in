@@ -3,5 +3,5 @@ include CONTRIBUTING.md
 include LICENSE
 include README.md
 include SECURITY.md
-recursive-include docs *.md
+recursive-include docs research.md
 recursive-include examples *.md *.example
