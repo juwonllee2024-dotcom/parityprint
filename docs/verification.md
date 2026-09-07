@@ -1,7 +1,7 @@
 # Verification record
 
-Status: local release candidate; remote commit, CI, and release identity are
-filled after publication.
+Status: published v0.1.0. The package artifacts below were built from the
+release target commit and checked locally before publication.
 
 ## TDD
 
@@ -43,7 +43,9 @@ reported as a successful scan.
 
 ## Release identity
 
-- Commit: recorded after all checks pass.
-- CI: recorded after public push and matrix success.
-- Release: recorded after `v0.1.0` is published.
-- Package SHA-256: recorded from exact release assets.
+- Commit: `d16b539a6e59db9d61226fd256ff743dc3ab47ca`
+- CI: [12-job matrix run](https://github.com/juwonllee2024-dotcom/parityprint/actions/runs/34049291774)
+- Release: [v0.1.0](https://github.com/juwonllee2024-dotcom/parityprint/releases/tag/v0.1.0)
+- Package SHA-256, computed from the exact uploaded assets:
+  - `parityprint-0.1.0-py3-none-any.whl`: `59fab3c780217628ebc8f0d4670b4535c09498be2b6d4971b0a962e9823f863b`
+  - `parityprint-0.1.0.tar.gz`: `63d87d05fe5c54ada51fa28089fb7c8ab32c64fdd8cae2b45760d758483dc4f1`
